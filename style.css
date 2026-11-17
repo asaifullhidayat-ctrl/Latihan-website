@@ -1,1 +1,32 @@
 
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.profil {
+    background-color: white;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: green;
+}
+
