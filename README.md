@@ -1,2 +1,2 @@
 # Latihan-website
-untuk mengajar siswa PPLG
+Website untuk melatih siswa PPLG 
