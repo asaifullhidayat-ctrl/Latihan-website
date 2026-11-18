@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Asaefull</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background: #14213d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+        }
+
+        nav a:hover {
+            color: #00b4d8;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #14213d, #0077b6);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        button {
+            background: #00b4d8;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #14213d;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skills div {
+            background: #14213d;
+            color: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #14213d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>PORTOFOLIO SAYA</h1>
+
+        <nav>
+            <a href="#home">cimpaeun</a>
+            <a href="#about">nama saya asaefull hidayat umur saya 15 tahun saya sekolah di SMKN 1</a>
+            <a href="#skill">MENGODING</a>
+            <a href="#contact"></a>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <h2>Halo, Saya Asaefull!</h2>
+        <p>Selamat datang di website portofolio pribadi saya.</p>
+        <button onclick="location.href='#about'">
+            Lihat Profil
+        </button>
+    </div>
+
+    <section id="about">
+        <h2>nama saya asaefull hidayat umur saya 15 tahun saya sekolah di SMKN 1 DEPOK</h2>
+        <p>
+            Nama saya Asaefull Hidayat.
+            Saya seorang pelajar yang tertarik
+            dengan teknologi dan pemrograman.
+        </p>
+    </section>
+
+    <section id="skill">
+        <h2>mengding</h2>
+
+        <div class="skills">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>Desain Grafis</div>
+            <div>Editing Foto</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak </h2>
+        <p>Email: asaifullhidayat@gmail.com</p>
+        <p>Instagram: pull_hdyt22</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Portofolio Saya</p>
+    </footer>
+
+</body>
+</html>
